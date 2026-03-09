@@ -39,6 +39,32 @@ nav a:hover {
   color: #FFFFFF;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1C1C1C; 
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-logo img {
+  height: 80px; /* adjust size */
+  width: auto;
+}
+
+
 /* === Hero Section === */
 .hero {
   display: flex;
@@ -147,21 +173,30 @@ section h2 {
   color: #1C1C1C;
 }
 
-/* === Skills Section === */
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+#skills {
+  background: #fdf6f9; /* soft pastel pink background */
+  border-radius: 12px;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.skills-list span {
-  background: #ADD8E6;
-  color: #1C1C1C;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-family: 'Fira Code', monospace;
-  font-size: 0.9rem;
+#skills h2 {
+  color: #6a0dad; /* deep purple for headings */
+  text-align: center;
+  margin-bottom: 15px;
 }
+
+#skills ul {
+  list-style-type: "✨ "; /* cute sparkle bullet points */
+  padding-left: 20px;
+}
+
+#skills li {
+  margin: 8px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
 
 /* === Footer === */
 footer {
