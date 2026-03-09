@@ -13,9 +13,11 @@
       <div class="nav-logo">
         <img src="lubnah portfolio logo.png" alt="Lubnah Olideen Logo">
       </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
       <ul class="nav-links">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#education">EDUCATION</a></li>
         <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#skills">SKILLS</a></li>
         <li><a href="#certifications">CERTIFICATIONS</a></li>
@@ -26,25 +28,34 @@
 
   <!-- === Hero Section === -->
   <section id="home" class="hero">
-    <div class="hero-text">
-      <h1>Hi, my name is</h1>
-      <h2>Lubnah Olideen</h2>
-      <h3>A freshly graduated Software Developer</h3>
-      <button aria-label="Download CV" onclick="window.open('Lubnah-Olideen-CV.pdf')">DOWNLOAD CV</button>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/lubnah-olideen-09a7a4250/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/honeybee1807" target="_blank">GitHub</a>
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, my name is</h1>
+        <h2>Lubnah Olideen</h2>
+        <h3>A freshly graduated Software Developer</h3>
+        <button aria-label="Download CV" onclick="window.open('Lubnah Olideen CV.pdf')">DOWNLOAD CV</button>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/lubnah-olideen-09a7a4250/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/honeybee1807" target="_blank" rel="noopener">GitHub</a>
+        </div>
       </div>
-    </div>
-    <div class="hero-image">
-      <img src="cv pic.jpeg" alt="Lubnah Olideen profile photo">
+      <div class="hero-image">
+        <img src="cv pic.jpeg" alt="Lubnah Olideen profile photo">
+      </div>
     </div>
   </section>
 
   <!-- === About Section === -->
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m a software development graduate with a love for turning ideas into real, working solutions. I’m especially drawn to data analytics and app design because I enjoy finding patterns and creating experiences that feel both smart and user‑friendly. I thrive in collaborative environments where I can learn, share, and contribute to meaningful projects. As I start my career journey, I’m excited to bring creativity, dedication, and a fresh perspective to the tech industry — and to grow into a developer who makes a positive impact.</p>
+    <p>Hi! I'm a recent Software Development graduate who enjoys maintaining, debugging, and troubleshooting systems and software to ensure everything runs smoothly.</p>
+  </section>
+
+  <!-- === Education Section === -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Bachelor of Computer Application Development</strong> | Varsity College (BCAD), Class of 2024</p>
   </section>
 
   <!-- === Skills Section === -->
@@ -55,7 +66,7 @@
       <li><strong>Web Development:</strong> MVC Web Development, HTML, CSS, JavaScript</li>
       <li><strong>Mobile Development:</strong> Android with Kotlin</li>
       <li><strong>Databases:</strong> Oracle Database, SQL, Cloud FireStore, MongoDB</li>
-      <li><strong>Azure Services:</strong> Virtual Machines, Azure App Services, Azure Functions, Azure Storage, Azure SQL Database</li>
+      <li><strong>Azure Services:</strong> Virtual Machines, App Services, Functions, Storage, SQL Database</li>
       <li><strong>Azure DevOps:</strong> Pipelines</li>
       <li><strong>Project Management:</strong> Team leadership, project planning, task delegation, scheduling, risk management, stakeholder communication, budgeting. Familiar with Slack and MS Project</li>
     </ul>
@@ -68,6 +79,7 @@
       <div class="project-card">
         <h3>SmartHydro Initiative</h3>
         <p>Led a team of 5 to develop an AI-integrated hydroponic farming system using C#, SQL, and .NET Core.</p>
+        <img src="AutoGrow.png" alt="SmartHydro AutoGrow system screenshot">
       </div>
       <div class="project-card">
         <h3>Private Tutoring</h3>
@@ -101,5 +113,8 @@
   <footer>
     <p>© 2026 Lubnah Olideen</p>
   </footer>
+
+  <!-- === Script for Hamburger Menu === -->
+  <script src="script.js"></script>
 </body>
 </html>
