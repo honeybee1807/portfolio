@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Georgia, 'Times New Roman', Times, serif;
   background-color: #FFFFFF;
   color: #1C1C1C;
   line-height: 1.6;
@@ -24,13 +24,15 @@ nav {
   align-items: center;
   position: relative;
 }
+
 .nav-logo a {
   text-decoration: none;
 }
+
 .nav-logo img {
   height: 60px;
-  width: auto
-  }
+  width: auto;
+}
 
 .nav-links {
   list-style: none;
@@ -70,8 +72,7 @@ nav {
   justify-content: center;
   padding: 4rem 2rem;
   min-height: 80vh;
-
-  background: url("Cyberpunk\ Coding\ Girl.jpg") center center / cover no-repeat;
+  background: url("Cyberpunk Coding Girl.jpg") center center / cover no-repeat;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -103,7 +104,7 @@ nav {
 .hero-text h1 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: #1C1C1C; /* gold accent */
+  color: #1C1C1C;
 }
 
 .hero-text h2 {
@@ -113,7 +114,7 @@ nav {
 
 .hero-text h3 {
   font-size: 1.5rem;
-  color: #1C1C1C; /* baby blue accent */
+  color: #1C1C1C;
 }
 
 .hero-text button {
@@ -142,7 +143,7 @@ nav {
 }
 
 .hero-text .socials a:hover {
-  color: #FFB6C1;
+  color: #FFFFFF;
 }
 
 .hero-image {
@@ -248,7 +249,7 @@ section h2 {
   box-shadow: 0 0 10px rgba(173, 216, 230, 0.4);
 }
 
-/* Contact Section */
+/* === Contact Section === */
 #contact {
   text-align: center;
   margin: 40px 0;
@@ -296,7 +297,6 @@ section h2 {
   font-size: 16px;
   color: #555;
 }
-
 
 /* === Footer === */
 footer {
