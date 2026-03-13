@@ -24,11 +24,13 @@ nav {
   align-items: center;
   position: relative;
 }
-
+.nav-logo a {
+  text-decoration: none;
+}
 .nav-logo img {
   height: 60px;
-  width: auto;
-}
+  width: auto
+  }
 
 .nav-links {
   list-style: none;
