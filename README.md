@@ -30,5 +30,3 @@ A modern, responsive portfolio website showcasing my skills in **web development
 ```bash
 git clone https://github.com/your-username/portfolio.git
 cd portfolio
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
